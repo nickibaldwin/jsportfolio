@@ -35,7 +35,7 @@
       <svg className="chipIcon" xmlns="http://www.w3.org/2000/svg" width="100" fill="none" background-color="#fcd5ce" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
         </svg>
-      <h3 class="h3-subtitle">About Me</h3>
+      <!-- <h3 class="h3-subtitle">About Me</h3> -->
       <p id="about-subtitle">Javascript Developer</p>
       <h4 class="h4-subtitle">Skills &amp; Technologies</h4>
       <p id="about-p">
@@ -72,7 +72,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
       <h3 class="h3-subtitle">Projects</h3>
-      <p id="about-subtitle">This site was <strong>designed</strong> and <strong>developed</strong> by me using React.js and CSS.</p>
+      <p id="about-subtitle">This site was <span style="font-weight:bold;">designed</span> and <span style="font-weight:bold;">developed</span> by me.</p>
       <h4 class="h4-subtitle">Below are projects I developed while studying at <a href="https://www.codefellows.org/">
         <img id="projects-cfLogo" alt="Code Fellows" width="200"src="/assets/cfLogo.png">
         </img>
@@ -80,29 +80,42 @@
 
       <div id="projects-CF"> 
         <div class="projects-title"><a href="https://github.com/nickibaldwin/MVP_DevGroup_Route_Generator/blob/main/README.md">Route Planner
-          <div class="projects-subtitle">Developed using JavaScript, CSS, HTML, MongoDB, Google Maps API</div>
-          <div class="projects-description">Created a route generator to render specified stopping points along a user selected route.</div>
+          <div class="projects-subtitle">Developed using JavaScript, CSS, HTML, MongoDB, Google Maps API
+          </div>
+          <div class="projects-description">Created a route generator to render specified stopping points along a user selected route.
+          </div>
           <img class="projects-img" src="/assets/routeGen.png" alt="Route Planner">
           </a>
         </div>
 
         <div class="projects-title"><a href="https://github.com/nickibaldwin/MVP_DevGroup_Project_1">Matching Game
-          <div class="projects-subtitle">Developed using Javascript, CSS, HTML</div>
-          <div class="projects-description">Created a memory/matching game, complete with animation.</div>
+          <div class="projects-subtitle">Developed using Javascript, CSS, HTML
+          </div>
+          <div class="projects-description">Created a memory/matching game, complete with animation.
+          </div>
           <img class="projects-img" src="/assets/matchingGame.png" alt="Route Planner">
           </a>
         </div>
-        </div>
+      </div>
+    </div>
 
+    <div class="icons">
+      <svg className="desktopIcon" width="100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
     </div>
 
     <div id="resume">
-      <svg className="desktopIcon" width="100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-
       <h3 class="h3-subtitle">Resume</h3>
+      <div id="education">
+        <div id="code-fellows">
+          ////////////////TO DO Code Fellows //////////////////
+        </div>
+        <div id="psu">
+          ////////////////TO DO Portland State Uni//////////////////
+        </div>
+      </div>
 
       <div id="resume-fringe">
-        <div className="resume-job-title">
+        <div class="resume-job-title">
         Designer at <a href="https://fringeseattle.com/" className="text-gray-900 underline"><u>Fringe</u></a>
         </div>
         <div className="resume-tenure">
@@ -121,7 +134,7 @@
 
       <div id="resume-gj">
         <div className="resume-job-title">
-        Designer at <a href="https://genejuarez.com/" className="text-gray-900 underline"><u>Gene Juarez</u></a>
+        Designer at <a href="https://genejuarez.com/"><u>Gene Juarez Salons and Spas</u></a>
         </div>
         <div className="resume-tenure">
           February 2014 - April 2018
@@ -155,6 +168,39 @@
         </li>
       </div>
 
+    </div>
+    <div class="icons">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="100"fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+      </svg>
+    </div>
+
+    <div id="contact">
+      <h3 class="h3-subtitle">Contact</h3>
+      <p id="about-subtitle">I'm open to networking!</p>
+      <div class="contact-icons">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" className="mailIcon" 
+        width="100" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        stroke="currentColor">
+        <a href="mailto:nickibaldwin@gmail.com">
+
+          <path 
+            stroke-linecap="round" stroke-linejoin="round" 
+            stroke-width="2" 
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </a>
+          </svg>
+
+        <a href="https://github.com/nickibaldwin">
+          <img 
+          alt="GH"
+          width="100"
+          src="./assets/ghicon.png"/>
+          </a>
+      </div>
     </div>
   </main>
 </body>
