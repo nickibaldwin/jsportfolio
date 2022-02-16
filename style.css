@@ -12,25 +12,43 @@ h2.subtitle {
 
 /* ================== NAVBAR ================== */
 
-header {
+.header {
+  height: 106px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   position: sticky;
-  /* background-color: black; */
 }
 
-#nav-items {
-  margin-left: 25%;
+.header-items {
+  margin-left: 40%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: inline-flex;
   align-items: center;
+
 }
 
 a.nav{
   letter-spacing: .5px;
   text-decoration: none;
   color: black;
-  /* display: flex; */
-  margin-left: 50%;
+  margin: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: -20px;
+}
+
+a.nav-contact {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 40px;
+}
+
+a.nav-contact:hover {
+  color: #474954;
+  transform: scale(1.25);
 }
 
 
