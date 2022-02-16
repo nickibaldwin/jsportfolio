@@ -10,25 +10,25 @@
 </head>
 
 <body>
-  <header>
-    <nav class="nav">
-      <a href="https://nickibaldwin.com"><img id="logo" src="/assets/logo.png" alt="NB"></a>
-      <ul>
-        <li><a href="#about" id="nav-about">About Me</a></li>
-        <li><a href="#projects" id="nav-projects">Projects</a></li>
-        <li><a href="#resume" id="nav-resume">Resume</a></li>
-        <li><a href="#contact" id="nav-contact">Contact Me</a><svg xmlns="http://www.w3.org/2000/svg" class="contact-arrow" height="30px" width="50px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <header class="header">
+    <a href="https://nickibaldwin.com"><img id="logo" src="/assets/logo.png" alt="NB"></a>
+    <div class="navbar">
+      <div id="nav-items">
+        <a href="#about" class="nav">Skills & Technologies</a>
+        <a href="#projects" class="nav">Projects</a>
+        <a href="#resume" class="nav">Resume</a>
+        <a href="#contact" class="nav">Contact Me</a><svg xmlns="http://www.w3.org/2000/svg" class="contact-arrow" height="30px" width="50px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-        </svg></li>
-      </ul>
-    </nav>
+        </svg>
+      </div>
+    </div>
   </header>
 
   <main>
-    <div id="intro">
-      <h1 class="intro-title">Hi! I'm Nicki Baldwin!</h1>
-      <h2 class="intro-subtitle">Software engineer with a passion for using design as a means to improve the lives of others.</h2>
-      <img src="/assets/nicki-transparent.png" alt="Hi!">
+    <div class="intro">
+      <h1 id="intro-title">Hi! I'm Nicki Baldwin</h1>
+      <h2 id="intro-subtitle">Software engineer with a passion for using design<br></br> as a means to improve the lives of others.</h2>
+      <img id="intro-img" src="/assets/nicki-transparent.png" alt="Hi!">
     </div>
 
     <div id="about">
@@ -178,22 +178,22 @@
     <div id="contact">
       <h3 class="h3-subtitle">Contact</h3>
       <p id="about-subtitle">I'm open to networking!</p>
-      <div class="contact-icons">
-        <svg 
-        xmlns="http://www.w3.org/2000/svg" className="mailIcon" 
-        width="100" 
-        fill="none" 
-        viewBox="0 0 24 24" 
-        stroke="currentColor">
+      <div id="email">
         <a href="mailto:nickibaldwin@gmail.com">
-
-          <path 
+          <svg 
+          xmlns="http://www.w3.org/2000/svg" className="mailIcon" 
+          width="100" 
+          fill="none" 
+          viewBox="0 0 24 24" 
+          stroke="black">
+            <path 
             stroke-linecap="round" stroke-linejoin="round" 
             stroke-width="2" 
             d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </a>
           </svg>
-
+        </a>
+      </div>
+      <div id="github">
         <a href="https://github.com/nickibaldwin">
           <img 
           alt="GH"
