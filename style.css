@@ -1,24 +1,58 @@
 /* ================== GLOBAL ================== */
 
 * {
-  background-color: #fcd5ce;
+  /* background-color: #fcd5ce; */
   /* margin: 0; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2.subtitle {
-
+  background-color: #E5E5E5;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  padding-top: 5%;
+  padding-bottom: 3%;
 }
 
+h3.subtitle {
+  background-color: #E5E5E5;
+  text-align: center;
+  font-size: 150%;
+  padding-bottom: 3%;
+  letter-spacing: 1px;
+}
+
+p.subtitle {
+  background-color: #E5E5E5;
+  padding-top: 2%;
+}
+
+.icons {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #fcd5ce;
+}
+
+span {
+  background-color: inherit;
+}
+
+ul.skills {
+  background-color: #E5E5E5;
+}
 /* ================== NAVBAR ================== */
 
 .header {
+  background-color: #fcd5ce;
   height: 106px;
   display: flex;
   align-items: center;
   height: 100%;
   width: 100%;
   position: sticky;
+  top: -20px;
 }
 
 .header-items {
@@ -32,7 +66,7 @@ h2.subtitle {
 a.nav{
   letter-spacing: .5px;
   text-decoration: none;
-  color: black;
+  color: #474954;
   margin: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   top: -20px;
@@ -47,20 +81,20 @@ a.nav-contact {
 }
 
 a.nav-contact:hover {
-  color: #474954;
+  color: black;
   transform: scale(1.25);
 }
 
 
 .nav:hover {
-  color: #474954;
+  color: black;
   transform: scale(1.25);
 }
 
-.nav:visited {
+/* .nav:visited {
   text-decoration: none;
-  color: #474954;
-}
+  color: black;
+} */
 
 #logo {
   height: 150px;
@@ -98,6 +132,39 @@ h2#intro-subtitle {
   background-color: #E5E5E5;
   margin-left: 50%;
 }
+/* ================== ABOUT ================== */
+
+.about {
+  background-color: #E5E5E5;
+  padding-bottom: 3%;
+}
+
+.skills {
+  margin-left: 25%;
+  letter-spacing: .75px;
+  font-size: larger;
+
+}
+
+p#about-p {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 5%;
+  letter-spacing: .75px;
+  font-size: larger;
+}
+/* h2#about-subtitle {
+  background-color: #E5E5E5;
+  text-align: center;
+  font-size: 300%;
+  font-weight: bolder;
+  padding-top: 5%;
+  padding-bottom: 3%;
+} */
+
+
+
+
 /* ================== PROJECTS ================== */
 /* ================== RESUME ================== */
 /* ================== CONTACT ================== */
