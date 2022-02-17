@@ -298,9 +298,15 @@ h3#contact-network {
   padding-top: 3%;
 }
 
+#linkedIn-img {
+  margin-top: -15px;
+}
+
 #linkedIn {
   padding-right: 2.5%;
   padding-left: 2.5%;
+  /* margin-bottom: 20px; */
+  padding-top: -5px;
 }
 
 #linkedIn:hover {
