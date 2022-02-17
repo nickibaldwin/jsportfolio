@@ -6,18 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   <title>Nicki Baldwin</title>
 </head>
 
 <body>
   <div class="header">
-    <img id="logo" src="/assets/logo.png" alt="NB">
+    <a href="#">
+      <img id="logo" src="/assets/logo.png" alt="NB">
+    </a>
     <div class="header-items">
       <a href="#about" class="nav">Skills & Technologies</a>
       <a href="#projects" class="nav">Projects</a>
       <a href="#resume" class="nav">Resume</a>
       <a href="#contact" class="nav-contact">Contact Me<svg xmlns="http://www.w3.org/2000/svg" class="contact-arrow" height="25px" width="60px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
       </a>
     </div>
@@ -29,64 +34,149 @@
       <h2 id="intro-subtitle">Software engineer with a passion for using design</h2>
       <h2 id="intro-subtitle"> as a means to improve the lives of others.</h2>
       <img id="intro-img" src="/assets/nicki-transparent.png" alt="Hi!">
+      <h2 id="intro-subtitle2"> </h2>
     </div>
 
     <div class="icons">
       <svg className="chipIcon" xmlns="http://www.w3.org/2000/svg" width="100" fill="none" background-color="#fcd5ce" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
         </svg>
     </div>
-
-    <div class="about">
-      <h2 class="subtitle">Skills &amp; Technologies</h2>
-      <h3 class="subtitle">Javascript Developer</h3>
-      <!-- <h4 class="h4-subtitle">Skills &amp; Technologies</h4> -->
-      <section id="about-skills">
+<div id="side-by-side">
+  <div id="about">
+    <h2 class="subtitle">Skills &amp; Technologies</h2>
+    <h3 class="subtitle"><span style="font-weight:bold;">Front End Developer</span></h3>
+    <!-- <h4 class="subtitle">Skills and Tools</h4> -->
+    <section id="about-skills">
+      <ul class="skills">
+        <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
+        Javascript</ul>
+      <ul class="skills">
+        <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
+        React.js</ul>
+      <ul class="skills">
+        <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+        </svg>
+        Sass/CSS</ul>
         <ul class="skills">
           <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
-          Javascript</ul>
-        <ul class="skills">
-          <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
-          React.js</ul>
-        <ul class="skills">
-          <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
           </svg>
-          Sass/CSS</ul>
-          <ul class="skills">
-            <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
-            </svg>
-            HTML5</ul>
-        <ul class="skills">
-          <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
-          Node.js</ul>
-      </section>
-      <p id="about-p">
-        jQuery, EJS, JSON, Git, GitHub, VS Code, SQL, MongoDB, Heroku, Netlify, PostgreSQL, Jest, Material UI, BEM, Bootstrap, REST API's, Auth0, AWS (SQS, Elastic Beanstalk, Lamba, DynamoDB, S3, API Gateway), Postman, Figma, Square, Lightroom, Illustrator, Trailhead by Salesforce.
-      </p>
+          HTML5</ul>
+      <ul class="skills">
+        <svg xmlns="http://www.w3.org/2000/svg" className="lightningBoltIcon" width="10" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" /></svg>
+        Node.js</ul>
+    </section>
+    
+    <p id="about-p">
+      jQuery, EJS, JSON, Git, GitHub, VS Code, SQL, MongoDB, Heroku, Netlify, PostgreSQL, Jest, Material UI, BEM, Bootstrap, REST API's, Auth0, AWS (SQS, Elastic Beanstalk, Lamba, DynamoDB, S3, API Gateway), Postman, Figma, Photoshop, Lightroom, Illustrator, Trailhead by Salesforce.
+    </p>
+  </div>
+
+  <div id="resume">
+    <h2 class="subtitle">Education &amp Certifications</h2>
+    <div id="education">
+      <a class="certA"href="https://www.codefellows.org/">Code Fellows
+        <!-- <img id="projects-cfLogo" alt="Code Fellows" width="200"src="/assets/cfLogo.png">
+        </img> -->
+        </a>
+      <div class="cert">
+        Certificate: Advanced Software Development in Full-Stack JavaScript, 2021
+      </div>
+      <div id="psu">
+        <a class="certA"href="https://www.pdx.edu/">Portland State University
+          </a>
+        <div class="cert">
+          Marketing, 2012
+        </div>
+      </div>
     </div>
+
+    <div id="resume-fringe">
+      <div class="resume-job-title">
+      Designer at <a href="https://fringeseattle.com/" ><u>Fringe</u></a>
+      </div>
+      <li class="tenure">
+        April 2018 - present
+      </li>
+      <li>
+        Designed and maintained industry portfolio for driving business including branding, photo editing, and logo design (personal, not for the company).
+      </li>
+      <li>
+        Through verbal and visual communication, implemented the clients desired outcome. Thus, resluting in a 65% first-time retention rate, which is beyond the industry standard.
+      </li>
+      <li>
+        Created a new marketing system to balance out the loss of clients due to Covid related attrition. Resulting in a 10% increase YTD.
+      </li>
+    </div>
+
+    <div id="resume-gj">
+      <!-- <div className="resume-job-title"> -->
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+          Designer at Gene Juarez Salons and Spas<span class="caret"></span>
+        </button>
+        <!-- </div> -->
+        <ul class="dropdown-menu">
+          <li class="tenure">
+            February 2014 - April 2018
+          </li>
+          <li >
+          Calendar management at the daily, monthly, and travel levels for myself and the Creative Director.
+          </li>
+          <li>
+          Traveled internationally for work and training with world renowned companies - Bumble and Bumble, Christophe Robin, Dessange. Focusing on design, art and business development.
+          </li>
+          <li>
+          Organized and implemented annual events for over 500 attendees.
+          </li>
+        </ul>
+      </div>
+
+      </div>
+
+    <div id="resume-suburban">
+      <div className="resume-job-title">
+      Administrator at <a href="https://www.suburbanchevrolet.com/" className="text-gray-900 underline"><u>Suburban Chevrolet</u></a>
+      </div>
+      <li class="tenure">
+        June 2010 - January 2012
+      </li>
+      <li >
+      Worked to consistently improve systems and maximize productivity; streamlined and optimized a number of processes and successfully increased the assigned workload.
+      </li>
+      <li>
+      Created marketing materials (mailers, posters, brochures, social media) that contributed to a fund-raising project for Guide Dogs for the Blind, raising $20,000.
+      </li>
+      <li>
+      Managed and maintained databases for several of the businesses under the Suburban Auto Group umbrella.
+      </li>
+    </div>
+  </div>
+</div>
+
 
     <div class="icons">
       <svg xmlns="http://www.w3.org/2000/svg" className="codeIcon" width="100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
         </svg>
     </div>
 
     <div id="projects">
-      <h2 class="subtitle">Projects</h2>
-      <p class="subtitle">This site was <span style="font-weight:bold;">designed</span> and <span style="font-weight:bold;">developed</span> by me.</p>
-      <h4 class="h4-subtitle">Below are projects I developed while studying at <a href="https://www.codefellows.org/">
+      <h2 class="subtitle">Portfolio</h2>
+      <h3 class="subtitle">This site was <span style="font-weight:bold;">designed</span> and <span style="font-weight:bold;">developed</span> by me.</h3>
+      <!-- <h4 class="subtitle">Below are projects I developed while studying at <a href="https://www.codefellows.org/">
         <img id="projects-cfLogo" alt="Code Fellows" width="200"src="/assets/cfLogo.png">
         </img>
-      </a></h4>
+      </a></h4> -->
 
-      <div id="projects-CF"> 
-        <div class="projects-title"><a href="https://github.com/nickibaldwin/MVP_DevGroup_Route_Generator/blob/main/README.md">Route Planner
-          <div class="projects-subtitle">Developed using JavaScript, CSS, HTML, MongoDB, Google Maps API
+      <div id="projects-cf"> 
+        <div style="font-size:150%" class="projects-route"><a class="projects-a" href="https://github.com/nickibaldwin/MVP_DevGroup_Route_Generator/blob/main/README.md">Route Planner
+          <div class="projects-subtitle2">Developed using JavaScript, CSS, HTML, MongoDB, Google Maps API
           </div>
           <div class="projects-description">Created a route generator to render specified stopping points along a user selected route.
           </div>
@@ -94,8 +184,8 @@
           </a>
         </div>
 
-        <div class="projects-title"><a href="https://github.com/nickibaldwin/MVP_DevGroup_Project_1">Matching Game
-          <div class="projects-subtitle">Developed using Javascript, CSS, HTML
+        <div style="font-size:150%" class="projects-match"><a class="projects-a" href="https://github.com/nickibaldwin/MVP_DevGroup_Project_1">Matching Game
+          <div class="projects-subtitle2">Developed using Javascript, CSS, HTML
           </div>
           <div class="projects-description">Created a memory/matching game, complete with animation.
           </div>
@@ -105,108 +195,48 @@
       </div>
     </div>
 
-    <div class="icons">
-      <svg className="desktopIcon" width="100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-    </div>
+    <!-- <div class="icons">
+      <svg className="desktopIcon" width="100" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+    </div> -->
 
-    <div id="resume">
-      <h2 class="subtitle">Resume</h2>
-      <div id="education">
-        <div id="code-fellows">
-          ////////////////TO DO Code Fellows //////////////////
-        </div>
-        <div id="psu">
-          ////////////////TO DO Portland State Uni//////////////////
-        </div>
-      </div>
 
-      <div id="resume-fringe">
-        <div class="resume-job-title">
-        Designer at <a href="https://fringeseattle.com/" className="text-gray-900 underline"><u>Fringe</u></a>
-        </div>
-        <div className="resume-tenure">
-          April 2018 - present
-        </div>
-        <li >
-          Designed and maintained industry portfolio for driving business including branding, photo editing, and logo design (personal, not for the company).
-        </li>
-        <li>
-          Through verbal and visual communication, implemented the clients desired outcome. Thus, resluting in a 65% first-time retention rate, which is beyond the industry standard.
-        </li>
-        <li>
-          Created a new marketing system to balance out the loss of clients due to Covid relocations. Resulting in a 10% increase YTD.
-        </li>
-      </div>
 
-      <div id="resume-gj">
-        <div className="resume-job-title">
-        Designer at <a href="https://genejuarez.com/"><u>Gene Juarez Salons and Spas</u></a>
-        </div>
-        <div className="resume-tenure">
-          February 2014 - April 2018
-        </div>
-        <li >
-        Calendar management at the daily, monthly, and travel levels for myself and the Creative Director.
-        </li>
-        <li>
-        Traveled internationally for work and training with world renowned companies - Bumble and Bumble, Christophe Robin, Dessange. Focusing on design, art and business development.
-        </li>
-        <li>
-        Organized and implemented annual events for over 500 attendees.
-        </li>
-      </div>
-
-      <div id="resume-suburban">
-        <div className="resume-job-title">
-        Administrator at <a href="https://www.suburbanchevrolet.com/" className="text-gray-900 underline"><u>Suburban Chevrolet</u></a>
-        </div>
-        <div className="resume-tenure">
-          June 2010 - January 2012
-        </div>
-        <li >
-        Worked to consistently improve systems and maximize productivity; streamlined and optimized a number of processes and successfully increased the assigned workload.
-        </li>
-        <li>
-        Created marketing materials (mailers, posters, brochures, social media) that contributed to a fund-raising project for Guide Dogs for the Blind, raising $20,000.
-        </li>
-        <li>
-        Managed and maintained databases for several of the businesses under the Suburban Auto Group umbrella.
-        </li>
-      </div>
-    </div>
-
-    <div class="icons">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" width="100"fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-      </svg>
-    </div>
-
+    
     <div id="contact">
-      <h2 class="subtitle">Contact</h2>
-      <h3 class="subtitle">I'm open to networking &#128522</h3>
-      <div id="email">
-        <a href="mailto:nickibaldwin@gmail.com">
-          <svg 
-          xmlns="http://www.w3.org/2000/svg" className="mailIcon" 
-          width="100" 
-          fill="none" 
-          viewBox="0 0 24 24" 
-          stroke="black">
-            <path 
-            stroke-linecap="round" stroke-linejoin="round" 
-            stroke-width="2" 
-            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-        </a>
-      </div>
-      <div id="github">
-        <a href="https://github.com/nickibaldwin">
-          <img 
-          alt="GH"
-          width="100"
-          src="./assets/ghicon.png"/>
+      <!-- <h2 class="subtitle">Contact</h2> -->
+      <h3 id="contact-network">I'm open to networking &#128522</h3>
+      <div class="contact-icons">
+        <div id="linkedIn">
+          <a href="https://www.linkedin.com/in/nickibaldwin/"> 
+            <img src="https://img.icons8.com/windows/96/ffffff/linkedin.png"/></a>
+            <!-- <img src="https://img.icons8.com/ios/75/ffffff/linkedin.png"/></a> -->
+        </div>
+    
+        <div id="email">
+          <a href="mailto:nickibaldwin@gmail.com">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" className="mailIcon" 
+            width="75" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="black">
+              <path 
+              stroke-linecap="round" stroke-linejoin="round" 
+              stroke-width="2" 
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
           </a>
+        </div>
+        <div id="github">
+          <a href="https://github.com/nickibaldwin">
+            <img 
+            alt="GH"
+            width="75"
+            src="./assets/ghicon.png"/>
+            </a>
+        </div>
       </div>
+      <div id="footer">Designed and Developed in 2022 by Nicole Ann Baldwin&#8482.</div>
     </div>
   </main>
 </body>
